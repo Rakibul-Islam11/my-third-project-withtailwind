@@ -102,7 +102,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px; 
 }
 .for_slider_inner_text_main_responsive {
     display: none;
@@ -119,11 +119,61 @@
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
+/* hero section end */
 
+/* professional section start */
+.profesional_club_secttion {
+    width: 50%;
+    margin: 9% auto;
+}
+.profesioanl_con > p:first-child {
+    color: #131318;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.profesioanl_con > p:nth-child(2) {
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+/* professional section end */
 
-
-
-
+/* progress section start */
+.progress_section_main {
+    width: 85%;
+    margin: -4% auto;
+}
+.first_pro {
+    width: 18%;
+    margin: auto;
+}
+.pro_text > p:first-child {
+    color: #131318;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.pro_text > p:nth-child(2) {
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+/* progress section end */
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
@@ -154,3 +204,27 @@
     }
 }
 /* hero section responsive end */
+
+/*professional section responsive start */
+@media only screen and (max-width : 960px) {
+    .profesional_club_secttion {
+        width: 90%;
+        margin: 1% auto;
+    }
+    .profesioanl_con > p:nth-child(2) {
+        font-size: 15px;
+    }
+}
+/*professional section responsive end */
+
+/*progress section responsive start */
+@media only screen and (max-width : 960px) {
+    .progress_section_con {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .first_pro {
+        width: 90%;
+    }
+}
+/*progress section responsive end */
