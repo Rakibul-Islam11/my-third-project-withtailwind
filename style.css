@@ -155,6 +155,9 @@
     width: 18%;
     margin: auto;
 }
+.pro_text {
+    height: fit-content;
+}
 .pro_text > p:first-child {
     color: #131318;
     text-align: center;
@@ -162,7 +165,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    
 }
 .pro_text > p:nth-child(2) {
     color: rgba(19, 19, 24, 0.60);
@@ -171,8 +174,9 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; 
+    
 }
+
 /* progress section end */
 /*! responsive start here */
 /* header responsive start */
@@ -219,9 +223,15 @@
 
 /*progress section responsive start */
 @media only screen and (max-width : 960px) {
+    .progress_section_main {
+        margin-top: 2%;
+    }
     .progress_section_con {
         flex-direction: column;
         gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .first_pro {
         width: 90%;
