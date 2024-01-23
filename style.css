@@ -12,40 +12,104 @@
 }
 
 
-@media only screen and (max-width: 472px) {
-    .header-cus {
-        width: 95%;
-        margin: auto;
-    }
-}
+
 /* header section end */
 
 /* hero section start */
 .hero_section_main {
     width: 85%;
-    margin: auto;
-    font-family: 'Manrope', sans-serif;
+    margin: 3% auto;
 }
-.slider_img_insert {
+.carousel {
+    height: fit-content !important;
+}
+.for_bg_insert {
     width: 100%;
     height: 450px;
     background-image: url("images/1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 16px;
 }
-.hero_section_main {
-    border-radius: 16px;
+
+#navBtnCus {
+    top : 90%
 }
-#slide1 , #slide1 , #slide1 {
+
+.for_bg_insert {
+    position: relative;
     border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
-} 
+}
+.silder_inner_discription {
+    position: absolute;
+    top: 60%;
+    right: 4%;
+    
+}
+
+.slider_text {
+    width: 55%;
+    border-radius: 16px;
+    height: fit-content;
+    overflow: hidden;
+    background-color: black;
+}
+
+.slider_text > p:first-child {
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.slider_text > p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Manrope', sans-serif;
+    margin-top: -10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.for_slider_inner_text_main_responsive {
+    width: 100%;
+    margin: 3% auto;
+    border-radius: 16px;
+    background-color: black;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.for_slider_inner_text_res_con > p:first-child {
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.for_slider_inner_text_res_con > p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+.for_slider_inner_text_main_responsive {
+    display: none;
+}
 #navBTN {
+    background-color: black;
+    color: white;
     width: 30px !important;
     height: 30px !important;
     min-height: 2rem;
@@ -55,120 +119,38 @@
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
-#navbtnContainer {
-      transform: translateY(550%);
-      -webkit-transform: translateY(550%);
-      -moz-transform: translateY(550%);
-      -ms-transform: translateY(550%);
-      -o-transform: translateY(550%);
-}
-#navBTN {
-    background-color: black;
-    color: white;
-}
-.slider_text_cus {
-    width: 40%;
-    height: 150px;
-    border-radius: 16px !important;
-    background-color: black;
-    -webkit-border-radius: 16px !important;
-    -moz-border-radius: 16px !important;
-    -ms-border-radius: 16px !important;
-    -o-border-radius: 16px !important;
-}
 
-.inner_slider_text_sec {
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
-}
-.slider_text_cus > p:first-child {
-    color: #FFF;
-    font-family: 'Manrope', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.slider_text_cus > p:nth-child(2) {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: 'Manrope', sans-serif;
-    margin-top: -10px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-}
-.inner_slider_text_sec_two {
-    display: none;
-    width: 100%;
-    height: fit-content;
-    margin: auto;
-    background-color: black;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
-}
-.slider_text_cus_two > p:first-child {
-    color: #FFF;
-    font-family: 'Manrope', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.slider_text_cus_two > p:nth-child(2) {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: 'Manrope', sans-serif;
-    margin-top: -10px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-}
 
-@media only screen and (max-width : 992px) {
-    .inner_slider_text_sec {
-       visibility: hidden;
+
+
+
+/*! responsive start here */
+/* header responsive start */
+@media only screen and (max-width: 472px) {
+    .header-cus {
+        width: 95%;
+        margin: auto;
+    }
+    .header-cus {
+        width: 95% !important;
+        margin: auto;
     }
 }
-@media only screen and (max-width : 992px) {
-    .inner_slider_text_sec_two {
+/* header responsive end */
 
-        display: flex !important;
-        justify-content: center !important;
+/* hero section responsive start */
+@media only screen and (max-width : 960px) {
+    .hero_section_main {
+        width: 90% !important;
+    }
+    .silder_inner_discription {
+        display: none !important;
+    }
+    .for_slider_inner_text_main_responsive {
+        display: inline-block !important;
+    }
+    #navBtnCus {
+        justify-content: center;
     }
 }
-
-@media only screen and (min-width:992px) and (max-width:1300px) {
-    .slider_text_cus > p:first-child {
-    color: #FFF;
-    font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-    .slider_text_cus > p:nth-child(2) {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: 'Manrope', sans-serif;
-    margin-top: -10px;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-}
-}
-
-@media only screen and (max-width: 992px) {
-    #navbtnContainer {
-        justify-content: center !important;
-        align-items: center !important;
-        
-    }
-}
-
+/* hero section responsive end */
