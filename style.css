@@ -374,6 +374,30 @@
     border: 1px solid rgba(19, 19, 24, 0.10);
 }
 /* product category end */
+
+/* clint_question_section start */
+.clint_section_main {
+    width: 50%;
+    margin: 10% auto;
+}
+.clint_section_con > p:first-child {
+    color: #131318;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.clint_section_con > p:nth-child(2) {
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
@@ -513,3 +537,12 @@
    
 }
 /* product category responsive end */
+
+/* clint_question_section responsive start */
+@media only screen and (max-width: 960px) {
+    .clint_section_main {
+        width: 85%;
+        
+    }
+}
+/* clint_question_section responsive end */
