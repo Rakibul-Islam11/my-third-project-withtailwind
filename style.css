@@ -308,8 +308,32 @@
     font-weight: 500;
     line-height: 26px;
 }
+/*program section end */
 
-
+/* our new product section start */
+.our_new_produc_section_main {
+    width: 50%;
+    margin: 7% auto;
+}
+.our_produc_con > p:first-child {
+    color: #131318;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.our_produc_con > p:nth-child(2) {
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* our new product section end */
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
@@ -413,3 +437,19 @@
     }
 }
 /*program section responsive end */
+
+/* our new product section responsive start */
+@media only screen and (max-width: 960px) {
+    .our_new_produc_section_main {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 556px) {
+    .our_produc_con > p:first-child {
+        font-size: 23px;
+    }
+    .our_produc_con > p:nth-child(2) {
+        font-size: 14px;
+    }
+}
+/* our new product section responsive end */
