@@ -544,6 +544,33 @@
     border-radius: 12px;
     background: rgba(19, 19, 24, 0.03);
 }
+#forProbBTN {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #FF4240;
+    background: #FF4240;
+    font-family: 'Manrope', sans-serif;
+}
+/* contact section end */
+
+/* socila media section start */
+.social_media_section_main{
+    width: 85%;
+    height: 150px;
+    margin: 2% auto;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+}
+.social_media_sec_con p {
+    color: #131318;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* socila media section end */
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
