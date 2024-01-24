@@ -398,6 +398,30 @@
     font-weight: 500;
     line-height: 26px;
 }
+/* clint_question_section end */
+
+/* our equpment section start */
+.our_equipment_section_main {
+    width: 85%;
+    margin: -3% auto;
+}
+.equipment_img {
+    width: 35%;
+}
+.equipment_accordion {
+    width: 75%;
+    margin-top: -2%;
+}
+.accor_for-border {
+    
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+/* our equpment section end */
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
@@ -546,3 +570,26 @@
     }
 }
 /* clint_question_section responsive end */
+
+/* our equpment section respojnsive start */
+@media only screen and (max-width: 1024px) {
+    .equipment_img {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .equipment_img img {
+        margin: auto;
+    }
+    .equipment_accordion {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .collapse-content P {
+        font-size: 14px;
+    }
+}
+/* our equpment section respojnsive end */
