@@ -447,6 +447,103 @@
     line-height: 26px; 
 }
 /* get in touch end */
+
+/* contact section start */
+.contact_section_start {
+    width: 85%;
+    margin: 2% auto;
+}
+.contact_head {
+    width: 30%;
+}
+.contact_head_info_box {
+    width: 70%;
+}
+.contact_card_one , .contact_card_two, .contact_card_three {
+    width: 100%;
+    height: 180px;
+}
+.contact_card_one {
+    border-radius: 16px;
+    background: rgba(188, 237, 109, 0.10);
+}
+.contact_card_two {
+    border-radius: 16px;
+    background: rgba(253, 221, 95, 0.10);
+}
+.contact_card_three {
+    border-radius: 16px;
+    background: rgba(98, 156, 243, 0.10);
+}
+
+.contact_card_one > p:nth-child(2) {
+    margin-top: 15px;
+    color: grey;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+.contact_card_one > p:nth-child(3) {
+    color: #131318;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+.contact_card_two > p:nth-child(2) {
+    margin-top: 15px;
+    color: grey;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+.contact_card_two > p:nth-child(3) {
+    color: #131318;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+.contact_card_three > p:nth-child(2) {
+    margin-top: 15px;
+    color: grey;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+.contact_card_three > p:nth-child(3) {
+    color: #131318;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.contact_head {
+    border-radius: 16px;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+.for_label {
+    color: #131318;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#name , #email , #subject , #phone , #feedback {
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+}
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
@@ -626,3 +723,20 @@
         
     }
 }
+/* get in touch section responsive end  */
+
+/* contact section responsive start */
+@media only screen and (max-width: 1024px) {
+    .contact_head {
+        width: 100%;
+    }
+    .contact_head_info_box {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #fomrCus {
+        display: block;
+    }
+}
+/* contact section responsive end */
