@@ -119,6 +119,12 @@
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
+#problem {
+    margin-left: -5px;
+}
+#problemTwo {
+    margin-left: -7px;
+}
 /* hero section end */
 
 /* professional section start */
@@ -557,7 +563,7 @@
 .social_media_section_main{
     width: 85%;
     height: 150px;
-    margin: 2% auto;
+    margin: auto;
     border-radius: 12px;
     background: rgba(19, 19, 24, 0.03);
 }
@@ -571,6 +577,94 @@
     line-height: normal;
 }
 /* socila media section end */
+
+/* footer section start */
+.footer_main {
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    background: #131318;
+}
+.inner_fooer_con {
+    width: 85%;
+    margin: auto;
+
+}
+.first_foot, .second_foot, .thirsd_foot, .four_foot {
+    width: 20%;
+}
+
+.first_foot > p:first-child {
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.first_foot > p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.first_foot a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.second_foot > p:first-child {
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.second_foot a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.thirsd_foot > p:first-child {
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.thirsd_foot a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.four_foot > p:first-child {
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.four_foot a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
 /*! responsive start here */
 /* header responsive start */
 @media only screen and (max-width: 472px) {
@@ -767,3 +861,23 @@
     }
 }
 /* contact section responsive end */
+
+@media only screen and (max-width: 768px) {
+    .inner_fooer_con  {
+        justify-content: center;
+    }
+    .footer_main {
+        height: fit-content;
+    }
+    .first_foot, .second_foot, .thirsd_foot, .four_foot {
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .footer_main {
+        height: fit-content;
+    }
+}
